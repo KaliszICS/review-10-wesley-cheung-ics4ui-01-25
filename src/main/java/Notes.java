@@ -13,7 +13,7 @@ class Notes {
 				if (i < 2) { //usually counters are found within if statements
 					count++; //this is the same as count = count + 1
 				}
-				sum += i; //sum = sum + j
+				sum += j; //sum = sum + j
 				
 			}
 		}
@@ -25,7 +25,7 @@ class Notes {
 
 		// prime numbers
 
-		int num = 7;
+		int num = 2;
 		boolean isPrime = true; //this is our assumption that all numbers are prime until proven otherwise
 
 		//figure out code to disprove if a number is prime
